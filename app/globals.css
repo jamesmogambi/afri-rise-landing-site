@@ -67,7 +67,7 @@ body {
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground text-base leading-[28px];
+    @apply bg-background text-[#000000] text-base leading-[28px];
   }
 
   h1,
