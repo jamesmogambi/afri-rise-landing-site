@@ -1,9 +1,6 @@
+import HomeCaurosel from "@/components/HomeCaurosel";
 import Image from "next/image";
 
 export default function page() {
-  return (
-    <>
-      <h1 className="text-3xl">Home Page</h1>
-    </>
-  );
+  return <div className="min-h-[200px]">{/* <HomeCaurosel /> */}</div>;
 }

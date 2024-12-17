@@ -25,3 +25,32 @@ export const footer = {
     },
   ],
 };
+
+export const homePage = {
+  carousel: [
+    {
+      title: "Afri-rise Equity",
+      subTitle: "The African Fund For African Companies",
+      path: "",
+      image: "/images/Afri-Rise-Scaled.jpg",
+    },
+    {
+      title: "Afri-rise Equity",
+      subTitle: "The African Fund For African Companies",
+      path: "",
+      image: "/images/Afri-Rise-scaled.jpg",
+    },
+    {
+      title: "Afri-rise Equity",
+      subTitle: "The African Fund For African Companies",
+      path: "",
+      image: "/images/Afri-Rise-scaled.jpg",
+    },
+    {
+      title: "Afri-rise Equity",
+      subTitle: "The African Fund For African Companies",
+      path: "",
+      image: "/images/Afri-Rise-scaled.jpg",
+    },
+  ],
+};
