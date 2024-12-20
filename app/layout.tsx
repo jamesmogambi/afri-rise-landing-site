@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto, Source_Sans_3 } from "next/font/google";
 import "./globals.css";
+import GoTopBtn from "@/components/GoTopBtn";
 
 const getRoboto = Roboto({
   weight: "400",
@@ -30,6 +31,7 @@ export default function RootLayout({
         suppressHydrationWarning
       >
         {children}
+        <GoTopBtn />
       </body>
     </html>
   );

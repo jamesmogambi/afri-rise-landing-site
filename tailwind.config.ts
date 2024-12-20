@@ -61,7 +61,9 @@ export default {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
-
+      height: {
+        "2/3-screen": "66.666667vh", // 2/3 of the viewport height
+      },
       fontFamily: {
         sans3: ["var(--font-sans)"],
         roboto: ["var(--font-roboto)"],

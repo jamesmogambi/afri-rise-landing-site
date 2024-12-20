@@ -29,24 +29,30 @@ export const footer = {
 export const homePage = {
   carousel: [
     {
+      id: 0,
       title: "Afri-rise Equity",
       subTitle: "The African Fund For African Companies",
       path: "",
       image: "/images/Afri-Rise-Scaled.jpg",
     },
     {
+      id: 1,
+
       title: "Afri-rise Equity",
       subTitle: "The African Fund For African Companies",
       path: "",
       image: "/images/Afri-Rise-scaled.jpg",
     },
     {
+      id: 2,
+
       title: "Afri-rise Equity",
       subTitle: "The African Fund For African Companies",
       path: "",
       image: "/images/Afri-Rise-scaled.jpg",
     },
     {
+      id: 3,
       title: "Afri-rise Equity",
       subTitle: "The African Fund For African Companies",
       path: "",
