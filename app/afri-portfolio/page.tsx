@@ -1,5 +1,5 @@
 import React from "react";
-import ServiceCard from "@/components/ServiceCard";
+import PortfolioCard from "@/components/PortfolioCard";
 
 export default function Page() {
   const recentNews = [
@@ -14,62 +14,48 @@ export default function Page() {
     { month: "December", year: 2022, count: 1 },
   ];
 
-  const services = [
+  const portfolioItems = [
     {
-      icon: "/icons/fund-management.png",
-      title: "Fund Management",
-      description:
-        "Fund Management Working with thousands of companies around the world",
-      link: "/services/fund-management",
+      number: "07",
+      category: "Business Planning",
+      title: "Digital Connectivity",
+      imageSrc: "/images/port07.png", // Replace with actual image paths
     },
     {
-      icon: "/icons/project-management.png",
-      title: "Project Management",
-      description:
-        "Project Management Working with thousands of companies around the world",
-      link: "/services/project-management",
+      number: "06",
+      category: "Business Planning",
+      title: "Energy Solutions",
+      imageSrc: "/images/port06.png",
     },
     {
-      icon: "/icons/strategic-planning.png",
-      title: "Strategic Planning",
-      description:
-        "Strategic Planning Working with thousands of companies around the world",
-      link: "/services/strategic-planning",
+      number: "05",
+      category: "Business Planning",
+      title: "Insurance",
+      imageSrc: "/images/port05.png",
     },
     {
-      icon: "/icons/investment-advisory.png",
-      title: "Investment Advisory",
-      description:
-        "Investment Advisory Working with thousands of companies around the world",
-      link: "/services/investment-advisory",
+      number: "04",
+      category: "Business Planning",
+      title: "Agriculture",
+      imageSrc: "/images/port04.png",
     },
     {
-      icon: "/icons/fund-management.png",
-      title: "Fund Management",
-      description:
-        "Fund Management Working with thousands of companies around the world",
-      link: "/services/fund-management",
+      number: "03",
+      category: "Business Planning",
+      title: "Commercial Infrastructure",
+      imageSrc: "/images/port03.png",
     },
     {
-      icon: "/icons/project-management.png",
-      title: "Project Management",
-      description:
-        "Project Management Working with thousands of companies around the world",
-      link: "/services/project-management",
+      number: "02",
+      category: "Business Planning",
+      title: "ICT",
+      imageSrc: "/images/port02.png",
     },
     {
-      icon: "/icons/strategic-planning.png",
-      title: "Strategic Planning",
-      description:
-        "Strategic Planning Working with thousands of companies around the world",
-      link: "/services/strategic-planning",
-    },
-    {
-      icon: "/icons/investment-advisory.png",
-      title: "Investment Advisory",
-      description:
-        "Investment Advisory Working with thousands of companies around the world",
-      link: "/services/investment-advisory",
+      number: "01",
+      category: "Business Planning",
+      title: "Green Field",
+      imageSrc: "/images/port01.png",
     },
   ];
 
@@ -82,29 +68,30 @@ export default function Page() {
           backgroundImage: "url('/images/porfolio001.png')", // Replace with your image path
         }}
       >
-        <div className="text-center text-white">
+        {/* <div className="text-center text-white">
           <h1 className="text-4xl font-bold">Portfolio</h1>
           <p className="mt-2 text-lg">
             Afri-Rise Equity - <span className="text-orange-500">Porfolio</span>
           </p>
-        </div>
+        </div> */}
       </div>
 
-      {/* Main Content Section */}
-      <div className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
-  {/* Service Cards */}
-  <div className="md:col-span-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-    {services.map((service, index) => (
-      <ServiceCard
-        key={index}
-        icon={service.icon}
-        title={service.title}
-        description={service.description}
-        link={service.link}
-      />
-    ))}
-  </div>
-</div>
+         {/* Main Content Section */}
+        <div className="max-w-7xl mx-auto px-4 py-12">
+          {/* Portfolio Cards */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+            {portfolioItems.map((item, index) => (
+              <PortfolioCard
+                key={index}
+                number={item.number}
+                category={item.category}
+                title={item.title}
+                imageSrc={item.imageSrc}
+              />
+            ))}
+          </div>
+        </div>
+
 
     </div>
   );

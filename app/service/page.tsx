@@ -17,32 +17,32 @@ export default function Page() {
 
   const services = [
     {
-      icon: "/images/banner-inner-page4.jpg",
+      icon: "/icons/fund-management.svg",
       title: "Fund Management",
-      description:
-        "Fund Management Working with thousands of companies around the world",
-      link: "/services/fund-management",
+      description: "Helping manage funds globally.",
+      link: "#",
+      backgroundImage: "/images/service1010.png",
     },
     {
-      icon: "/icons/project-management.png",
+      icon: "/icons/project-management.svg",
       title: "Project Management",
-      description:
-        "Project Management Working with thousands of companies around the world",
-      link: "/services/project-management",
+      description: "Efficient project execution worldwide.",
+      link: "#",
+      backgroundImage: "/images/service1116.png",
     },
     {
-      icon: "/icons/strategic-planning.png",
+      icon: "/icons/strategic-planning.svg",
       title: "Strategic Planning",
-      description:
-        "Strategic Planning Working with thousands of companies around the world",
-      link: "/services/strategic-planning",
+      description: "Plan strategies for success.",
+      link: "#",
+      backgroundImage: "/images/service1121.png",
     },
     {
-      icon: "/icons/investment-advisory.png",
+      icon: "/icons/investment-advisory.svg",
       title: "Investment Advisory",
-      description:
-        "Investment Advisory Working with thousands of companies around the world",
-      link: "/services/investment-advisory",
+      description: "Expert advice for investments.",
+      link: "#",
+      backgroundImage: "/images/service1124.png",
     },
   ];
 
@@ -55,19 +55,18 @@ export default function Page() {
           backgroundImage: "url('/images/service001.png')", // Replace with your image path
         }}
       >
-        <div className="text-center text-white">
+        {/* <div className="text-center text-white">
           <h1 className="text-4xl font-bold">Service</h1>
           <p className="mt-2 text-lg">
             Afri-Rise Equity - <span className="text-orange-500">service</span>
           </p>
-        </div>
+        </div> */}
       </div>
 
       {/* Main Content Section */}
-      <div className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
-
+      <div className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 gap-12">
         {/* Service Cards */}
-        <div className="md:col-span-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-12">
           {services.map((service, index) => (
             <ServiceCard
               key={index}
@@ -75,10 +74,13 @@ export default function Page() {
               title={service.title}
               description={service.description}
               link={service.link}
+              backgroundImage={service.backgroundImage}
             />
           ))}
         </div>
       </div>
+
+
     </div>
   );
 }

@@ -8,7 +8,8 @@ type ArticleCardProps = {
   readingTime: string;
   title: string;
   description: string;
-  readMoreLink: string; // New prop for the link
+  readMoreLink: string; 
+  className:string;// New prop for the link
 };
 
 const ArticleCard: React.FC<ArticleCardProps> = ({
