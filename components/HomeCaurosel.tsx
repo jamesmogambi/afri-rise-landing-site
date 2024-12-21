@@ -28,7 +28,7 @@ const HomeCaurosel = () => {
   console.log("port height: " + height);
 
   return (
-    <div className="relative w-full h-2/3-screen   lg:h-screen overflow-hidden ">
+    <div className="relative w-full h-2/3-screen z-10  lg:h-screen overflow-hidden ">
       {/* Slides */}
 
       <div
@@ -47,20 +47,20 @@ const HomeCaurosel = () => {
             alt={slides[currentIndex].title}
             fill
             priority
-            className="object-cover"
+            className="object-cover "
             quality={100}
           />
         </div>
       </div>
 
       <div className="absolute inset-0 flex bg-black/50 items-center justify-center text-white z-10">
-        <div className="mx-4 ld:mx-0 w-full lg:max-w-5xl border-white  flex justify-between items-center">
-          <div className="max-w-[700px]">
+        <div className="mx-4 ld:mx-0 w-full lg:max-w-7xl border-white  flex justify-between items-center">
+          <div className="">
             <h4 className="text-xl mb-4 font-semibold">
               {slides[currentIndex].title}
             </h4>
 
-            <p className="md:border-l-8 mb-9 text-4xl lg:text-5xl uppercase border-primary  md:pl-6 text-white font-medium">
+            <p className="md:border-l-8 mb-9 text-4xl lg:text-5xl uppercase border-primary   md:pl-6 text-white font-medium lg:max-w-4xl">
               {slides[currentIndex].subTitle}
             </p>
 
