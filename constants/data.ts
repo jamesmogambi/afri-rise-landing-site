@@ -68,7 +68,7 @@ export const homePage = {
       title: "Fund Management",
       description:
         "We are a professional fund manager who understands the intricacies and reality of delivering affordable financing in developing markets.",
-      image: "/images/fund-management.jpg",
+      image: "/images/afri-scale.png",
       path: "",
     },
     {

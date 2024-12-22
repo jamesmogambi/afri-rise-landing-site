@@ -5,6 +5,7 @@ import WhatWeDo from "./WhatWeDo";
 import AboutVideo from "./AboutVideo";
 import ProjectsSection from "./ProjectsSection";
 import CompanyProfileChart from "./CompanyProfileChart";
+import CustomerCallBackSection from "./CustomerCallBackSection";
 
 export default function page() {
   return (
@@ -16,6 +17,7 @@ export default function page() {
       <AboutVideo />
       {/* <ProjectsSection /> */}
       <CompanyProfileChart />
+      <CustomerCallBackSection />
     </div>
   );
 }

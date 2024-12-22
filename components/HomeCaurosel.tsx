@@ -59,7 +59,7 @@ const HomeCaurosel = () => {
               {slides[currentIndex].title}
             </h4>
 
-            <p className="md:border-l-8 mb-9 text-4xl lg:text-5xl uppercase border-primary   md:pl-6 text-white font-medium lg:max-w-4xl">
+            <p className="md:border-l-8  mb-9 text-4xl lg:text-5xl uppercase border-primary   md:pl-6 text-white font-medium lg:max-w-4xl">
               {slides[currentIndex].subTitle}
             </p>
 
