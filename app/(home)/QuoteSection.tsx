@@ -4,7 +4,7 @@ import React from "react";
 
 const QuoteSection = () => {
   return (
-    <div className="relative pt-8">
+    <div className="relative flex flex-col pt-8 mb-4">
       <div className="w-full flex gap-5 flex-col justify-center items-center">
         <div className="relative w-40">
           <span className="text-[60px] font-bold">100</span>

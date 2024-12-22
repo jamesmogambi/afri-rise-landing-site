@@ -116,4 +116,35 @@ export const homePage = {
 
     cover: "/images/Cover.svg",
   },
+
+  whatWeDo: [
+    {
+      id: 1,
+      name: "Fund Management",
+      path: "",
+      image: "/images/Market-Research_inactive.svg",
+      cover: "/images/service1.jpg",
+    },
+    {
+      id: 2,
+      name: "Project Management",
+      path: "",
+      image: "/images/Saving-Money_hover-1.svg",
+      cover: "/images/service2.jpg",
+    },
+    {
+      id: 3,
+      name: "Strategic Planning",
+      path: "",
+      image: "/images/Corporate-Finance-2.svg",
+      cover: "/images/service3.jpg",
+    },
+    {
+      id: 4,
+      name: "Investment Advisory",
+      path: "",
+      image: "/images/FINANCIAL-ADVICE-2.svg",
+      cover: "/images/service4.jpg",
+    },
+  ],
 };
