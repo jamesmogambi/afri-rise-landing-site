@@ -1,5 +1,4 @@
 import HomeCaurosel from "@/components/HomeCaurosel";
-import Image from "next/image";
 import ServicesSection from "./ServicesSection";
 import QuoteSection from "./QuoteSection";
 import WhatWeDo from "./WhatWeDo";

@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { Button } from "./ui/button";
 import { ChevronsUp } from "lucide-react";
 
 const GoTopBtn = () => {

@@ -2,7 +2,6 @@
 import { homePage } from "@/constants/data";
 import Image from "next/image";
 import React, { useState } from "react";
-import { Button } from "./ui/button";
 import useScreenHeight from "@/hooks/useScreenHeight";
 import Link from "next/link";
 import { CircleArrowRight } from "lucide-react";

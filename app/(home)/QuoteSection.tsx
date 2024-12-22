@@ -13,7 +13,7 @@ const QuoteSection = () => {
           </div>
         </div>
 
-        <div className="text-[40px] text-center text-[#ff0026] font-bold mt-[9px]">
+        <div className="text-[40px] text-center leading-tight text-[#ff0026] font-bold mt-[9px]">
           Billion Dollars Investments
         </div>
 
