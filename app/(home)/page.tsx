@@ -1,4 +1,5 @@
 import HomeCaurosel from "@/components/HomeCaurosel";
+import Image from "next/image";
 
 export default function page() {
   return (
