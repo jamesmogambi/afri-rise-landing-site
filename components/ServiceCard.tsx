@@ -39,7 +39,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
       {/* Icon */}
       <div
         className={`relative z-10 flex justify-center items-center mb-4 transition-opacity duration-300 ${
-          isHovered ? "opacity-0" : "opacity-100"
+          isHovered ? "text-white translate-y-[-10px]" : "opacity-100"
         }`}
       >
         <img
@@ -61,7 +61,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
       {/* Description */}
       <p
         className={`relative z-10 text-gray-600 mb-4 transition-opacity duration-300 ${
-          isHovered ? "opacity-0" : "opacity-100"
+          isHovered ? "text-white translate-y-[-10px]" : "opacity-100"
         }`}
       >
         {description}

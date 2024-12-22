@@ -2,60 +2,60 @@ import React from "react";
 import PortfolioCard from "@/components/PortfolioCard";
 
 export default function Page() {
-  const recentNews = [
-    {
-      imageSrc: "/images/blog002.png",
-      date: "December 14, 2022",
-      title: "Africa Investment Forum 2022 draws...",
-    },
-  ];
+  // const recentNews = [
+  //   {
+  //     imageSrc: "/images/blog002.png",
+  //     date: "December 14, 2022",
+  //     title: "Africa Investment Forum 2022 draws...",
+  //   },
+  // ];
 
-  const archives = [
-    { month: "December", year: 2022, count: 1 },
-  ];
+  // const archives = [
+  //   { month: "December", year: 2022, count: 1 },
+  // ];
 
   const portfolioItems = [
     {
       number: "07",
       category: "Business Planning",
       title: "Digital Connectivity",
-      imageSrc: "/images/port07.png", // Replace with actual image paths
+      imageSrc: "/images/Afri-Finance.jpg", // Replace with actual image paths
     },
     {
       number: "06",
       category: "Business Planning",
       title: "Energy Solutions",
-      imageSrc: "/images/port06.png",
+      imageSrc: "/images/Afri-Energy.jpg",
     },
     {
       number: "05",
       category: "Business Planning",
       title: "Insurance",
-      imageSrc: "/images/port05.png",
+      imageSrc: "/images/Afri-Insu.jpg",
     },
     {
       number: "04",
       category: "Business Planning",
       title: "Agriculture",
-      imageSrc: "/images/port04.png",
+      imageSrc: "/images/Afri-Agriculture.jpg",
     },
     {
       number: "03",
       category: "Business Planning",
       title: "Commercial Infrastructure",
-      imageSrc: "/images/port03.png",
+      imageSrc: "/images/Commercial-afri.jpg",
     },
     {
       number: "02",
       category: "Business Planning",
       title: "ICT",
-      imageSrc: "/images/port02.png",
+      imageSrc: "/images/ICT-AFRI.png",
     },
     {
       number: "01",
       category: "Business Planning",
       title: "Green Field",
-      imageSrc: "/images/port01.png",
+      imageSrc: "/images/Shunde_Slider.jpg",
     },
   ];
 
@@ -77,20 +77,21 @@ export default function Page() {
       </div>
 
          {/* Main Content Section */}
-        <div className="max-w-7xl mx-auto px-4 py-12">
+         <div className="max-w-7xl mx-auto px-4 py-12">
           {/* Portfolio Cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
-            {portfolioItems.map((item, index) => (
-              <PortfolioCard
-                key={index}
-                number={item.number}
-                category={item.category}
-                title={item.title}
-                imageSrc={item.imageSrc}
-              />
-            ))}
-          </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
+          {portfolioItems.map((item, index) => (
+            <PortfolioCard
+              key={index}
+              number={item.number}
+              category={item.category}
+              title={item.title}
+              imageSrc={item.imageSrc}
+            />
+          ))}
         </div>
+      </div>
+
 
 
     </div>

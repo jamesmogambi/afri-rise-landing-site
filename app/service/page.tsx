@@ -1,48 +1,47 @@
 import React from "react";
-import Sidebar from "@/components/SideBar";
 import ServiceCard from "@/components/ServiceCard";
 
 export default function Page() {
-  const recentNews = [
-    {
-      imageSrc: "/images/blog002.png",
-      date: "December 14, 2022",
-      title: "Africa Investment Forum 2022 draws...",
-    },
-  ];
+  // const recentNews = [
+  //   {
+  //     imageSrc: "/images/blog002.png",
+  //     date: "December 14, 2022",
+  //     title: "Africa Investment Forum 2022 draws...",
+  //   },
+  // ];
 
-  const archives = [
-    { month: "December", year: 2022, count: 1 },
-  ];
+  // const archives = [
+  //   { month: "December", year: 2022, count: 1 },
+  // ];
 
   const services = [
     {
-      icon: "/icons/fund-management.svg",
+      icon: "/images/Market-Research.svg",
       title: "Fund Management",
-      description: "Helping manage funds globally.",
+      description: "Fund Management Working with Thousands of companies around the world.",
       link: "#",
-      backgroundImage: "/images/service1010.png",
+      backgroundImage: "/images/Fund-Management.jpg",
     },
     {
-      icon: "/icons/project-management.svg",
+      icon: "/images/Saving-Money.svg",
       title: "Project Management",
       description: "Efficient project execution worldwide.",
       link: "#",
-      backgroundImage: "/images/service1116.png",
+      backgroundImage: "/images/Project-Management.jpg",
     },
     {
-      icon: "/icons/strategic-planning.svg",
+      icon: "/images/Corporate-Finance.svg",
       title: "Strategic Planning",
       description: "Plan strategies for success.",
       link: "#",
-      backgroundImage: "/images/service1121.png",
+      backgroundImage: "/images/Strategic-Planning.jpg",
     },
     {
-      icon: "/icons/investment-advisory.svg",
+      icon: "/images/FINANCIAL-ADVICE.svg",
       title: "Investment Advisory",
       description: "Expert advice for investments.",
       link: "#",
-      backgroundImage: "/images/service1124.png",
+      backgroundImage: "/images/investment-Advisory.jpg",
     },
   ];
 

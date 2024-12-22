@@ -38,7 +38,7 @@ export default function Page() {
         <div className="flex-grow w-full lg:w-[75%] border border-gray-200 rounded-lg p-6 shadow-lg">
           <ArticleCard
             className="w-full h-full"
-            imageSrc="/images/blog002.png"
+            imageSrc="/images/blog_Image.jpg"
             date="December 14, 2022"
             category="Finance"
             readingTime="4 mins read"

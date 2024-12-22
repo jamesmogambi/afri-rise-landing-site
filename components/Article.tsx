@@ -69,9 +69,13 @@ const ArticleCard: React.FC<ArticleCardProps> = ({
 
         {/* Read More Button with Link */}
         <Link href={readMoreLink}>
-            <button className="mt-4 inline-flex items-center px-4 py-2 text-white bg-purple-600 rounded-lg shadow hover:bg-purple-700 focus:outline-none">
-              Read more
-            </button>
+        <button className="mt-4 inline-flex items-center px-6 py-3 text-black border border-gray-300 rounded-full shadow transition duration-300 hover:bg-[#120E43] hover:text-white">
+          Read more
+          <span className="ml-2 flex items-center justify-center w-6 h-6 rounded-full border border-current text-[#120E43] hover:text-white transition duration-300">
+            →
+          </span>
+        </button>
+
         </Link>
       </div>
     </div>
