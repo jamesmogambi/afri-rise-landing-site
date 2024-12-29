@@ -18,44 +18,51 @@ export default function Page() {
     {
       number: "07",
       category: "Business Planning",
-      title: "Digital Connectivity",
-      imageSrc: "/images/Afri-Finance.jpg", // Replace with actual image paths
+      title: "Finance",
+      imageSrc: "/images/Afri-Finance.jpg",
+      link:"/afri-portfolio/finance "
     },
     {
       number: "06",
       category: "Business Planning",
       title: "Energy Solutions",
       imageSrc: "/images/Afri-Energy.jpg",
+      link:"/afri-portfolio/energy"
     },
     {
       number: "05",
       category: "Business Planning",
       title: "Insurance",
       imageSrc: "/images/Afri-Insu.jpg",
+      link:"/afri-portfolio/insurance"
     },
     {
       number: "04",
       category: "Business Planning",
       title: "Agriculture",
       imageSrc: "/images/Afri-Agriculture.jpg",
+      link:"/afri-portfolio/agriculture"
     },
     {
       number: "03",
       category: "Business Planning",
       title: "Commercial Infrastructure",
       imageSrc: "/images/Commercial-afri.jpg",
+      link:"/afri-portfolio/commercial-infrastructure"
     },
     {
       number: "02",
       category: "Business Planning",
       title: "ICT",
       imageSrc: "/images/ICT-AFRI.png",
+      link:"/afri-portfolio/ict"
     },
     {
       number: "01",
       category: "Business Planning",
       title: "Green Field",
       imageSrc: "/images/Shunde_Slider.jpg",
+      link:"/afri-portfolio/greenfield"
     },
   ];
 
@@ -87,6 +94,7 @@ export default function Page() {
               category={item.category}
               title={item.title}
               imageSrc={item.imageSrc}
+              link={item.link}
             />
           ))}
         </div>

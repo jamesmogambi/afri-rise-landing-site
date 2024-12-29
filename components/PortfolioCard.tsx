@@ -1,11 +1,13 @@
-"use client"
+"use client";
 import React, { useState } from "react";
+import Link from "next/link"; // Import this if using Next.js routing
 
 interface PortfolioCardProps {
   number: string;
   category: string;
   title: string;
   imageSrc: string;
+  link: string; // Add a `link` prop for navigation
 }
 
 const PortfolioCard: React.FC<PortfolioCardProps> = ({
@@ -13,6 +15,7 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
   category,
   title,
   imageSrc,
+  link,
 }) => {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -46,9 +49,14 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
           {title}
         </h3>
         {isHovered && (
-          <button className="mt-2 px-4 py-2 bg-blue-700 text-sm font-medium rounded hover:bg-blue-800">
-            + Read More
-          </button>
+          <Link
+            href={link} // Navigation link
+            passHref
+          >
+            <button className="mt-2 px-4 py-2 bg-blue-700 text-sm font-medium rounded hover:bg-blue-800">
+              + Read More
+            </button>
+          </Link>
         )}
       </div>
     </div>

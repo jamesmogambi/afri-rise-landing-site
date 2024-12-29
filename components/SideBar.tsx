@@ -15,13 +15,14 @@ type ArchiveItem = {
 type SidebarProps = {
   recentNews: NewsItem[];
   archives: ArchiveItem[];
+  galleryImages: string[];
 };
 
-const Sidebar: React.FC<SidebarProps> = ({ recentNews, archives }) => {
+const Sidebar: React.FC<SidebarProps> = ({ recentNews, archives, galleryImages }) => {
   return (
     <aside className="bg-white p-4 shadow-md rounded-lg">
-        {/* Categories */}
-        <div className="mb-8">
+      {/* Categories */}
+      <div className="mb-8">
         <h2 className="text-xl font-semibold text-gray-800 mb-4">Categories</h2>
         <div className="border-t-2 border-yellow-500 w-8 mb-2"></div>
         <div className="border-t-2 border-purple-800 w-6"></div>
@@ -41,6 +42,7 @@ const Sidebar: React.FC<SidebarProps> = ({ recentNews, archives }) => {
           </div>
         ))}
       </div>
+
       {/* Recent News */}
       <div className="mb-8">
         <h2 className="text-xl font-semibold text-gray-800 mb-4">Recent News</h2>
@@ -56,6 +58,23 @@ const Sidebar: React.FC<SidebarProps> = ({ recentNews, archives }) => {
             </div>
           </div>
         ))}
+      </div>
+
+      {/* Gallery */}
+      <div className="mb-8">
+        <h2 className="text-xl font-semibold text-gray-800 mb-4">Gallery</h2>
+        <div className="border-t-2 border-yellow-500 w-8 mb-2"></div>
+        <div className="border-t-2 border-purple-800 w-6"></div>
+        <div className="grid grid-cols-3 gap-4 mt-4">
+          {galleryImages.map((image, index) => (
+            <img
+              key={index}
+              src={image}
+              alt={`Gallery image ${index + 1}`}
+              className="w-full h-24 object-cover rounded-lg shadow-sm"
+            />
+          ))}
+        </div>
       </div>
 
       {/* Archives */}
@@ -81,3 +100,4 @@ const Sidebar: React.FC<SidebarProps> = ({ recentNews, archives }) => {
 };
 
 export default Sidebar;
+
