@@ -1,3 +1,4 @@
+import { cn } from "@/lib/utils";
 import Image from "next/image";
 import React from "react";
 
@@ -12,7 +13,7 @@ const PageBanner = ({
   imgPath = "/images/smiling-banner.jpg",
 }: Prop) => {
   return (
-    <div className="h-[400px] relative ">
+    <div className={cn("h-[400px] relative", className)}>
       {/* first layer */}
       <div className="absolute h-full w-full z-0 top-0 left-0">
         <Image
