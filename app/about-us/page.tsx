@@ -1,9 +1,10 @@
+import PageBanner from "@/components/PageBanner";
 import React from "react";
 
 const page = () => {
   return (
     <div>
-      <h2 className="text-3xl p-8">Under Maintanence...</h2>
+      <PageBanner title="About Us" />
     </div>
   );
 };

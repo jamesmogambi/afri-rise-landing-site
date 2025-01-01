@@ -13,6 +13,7 @@ export default {
         "gray-2": "#444444",
         "light-gray": "#f8f8f8",
         "blue-title": "#1d1668",
+        golden: "#b3892b",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
@@ -66,6 +67,9 @@ export default {
       height: {
         "2/3-screen": "66.666667vh", // 2/3 of the viewport height
       },
+      // width: {
+      //   "screen-max": "66.666667vh", // 2/3 of the viewport height
+      // },
 
       screens: {
         xl: "375px",
