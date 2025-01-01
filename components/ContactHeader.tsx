@@ -14,7 +14,7 @@ const ContactHeader = () => {
         <div className="flex items-center justify-center flex-1">
           <Link href="/">
             <Image
-              src={"/images/logo001.png"}
+              src={"/images/logo-no-bg.png"}
               height={100}
               width={200}
               alt="company-logo"

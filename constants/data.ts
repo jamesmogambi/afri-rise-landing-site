@@ -32,7 +32,7 @@ export const homePage = {
   carousel: [
     {
       id: 0,
-      title: "Afririse Prosperity Investment Limited",
+      title: "Afririse Prosperity Investment Fund",
       subTitle: "A Fund For African Companies",
       path: "",
       image: "/images/afririse-carousel-1.jpg",

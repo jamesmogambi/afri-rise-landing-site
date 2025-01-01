@@ -110,10 +110,10 @@ const MobileNav = ({ className }: { className?: string }) => {
 const Header = () => {
   return (
     <div className="flex px-5 items-center justify-between  lg:justify-around lg:shadow-xl ">
-      <Link href="/">
+      <Link href="/" className="my-2 mb-4">
         <Image
-          src={"/images/logo001.png"}
-          height={200}
+          src={"/images/logo-no-bg.png"}
+          height={180}
           width={300}
           alt="company-logo"
           priority

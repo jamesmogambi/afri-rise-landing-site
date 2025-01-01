@@ -32,9 +32,8 @@ const HomeCaurosel = () => {
 
       <div
         className="flex transition-transform duration-500"
-        // style={{
-        //   transform: `translateX(-${currentIndex * 100}%)`,
-        // }}
+        // style={{0ndex * 100}%)`,
+        // }}.
       >
         <div
           //   key={slide.id}
