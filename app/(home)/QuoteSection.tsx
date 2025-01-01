@@ -18,7 +18,7 @@ const QuoteSection = () => {
         </div>
 
         <div className="border-2 border-primary py-1 px-4 rounded-md mb-[20px">
-          <h4 className="uppercase text-blue-title font-semibold">' ' Quote</h4>
+          <h4 className="uppercase text-blue-title font-semibold">"" Quote</h4>
         </div>
 
         <h2 className="text-[36px] text-center font-medium my-10">

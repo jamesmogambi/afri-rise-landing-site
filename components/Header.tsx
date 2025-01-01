@@ -15,7 +15,7 @@ import { usePathname, useRouter } from "next/navigation";
 const MobileNav = ({ className }: { className?: string }) => {
   const [showDropdown, setShowDropdown] = useState<boolean>(false);
 
-  const [width, setWidth] = useState(window.innerWidth);
+  const [width, setWidth] = useState<any>();
 
   const pathName = usePathname();
 
@@ -111,9 +111,9 @@ const Header = () => {
   return (
     <div className="flex px-5 items-center justify-between  lg:justify-around lg:shadow-xl ">
       <Image
-        src={"/images/company-logo.png"}
-        height={90}
-        width={170}
+        src={"/images/logo-no-bg.png"}
+        height={200}
+        width={300}
         alt="company-logo"
         priority
         quality={99}

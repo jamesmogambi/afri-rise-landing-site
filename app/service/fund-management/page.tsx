@@ -3,7 +3,7 @@ import FundMTabs from "@/components/FundMTabs";
 import Servicelinks from "@/components/ServiceLinks";
 import ServiceContact from "@/components/ServiceContact";
 
-export default function Page() {
+export default function page() {
   return (
     <div>
       {/* Background Section */}

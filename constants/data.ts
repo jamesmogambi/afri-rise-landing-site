@@ -32,10 +32,10 @@ export const homePage = {
   carousel: [
     {
       id: 0,
-      title: "Afri-rise Equity",
-      subTitle: "The African Fund For African Companies",
+      title: "Afririse Prosperity Investment Limited",
+      subTitle: "A Fund For African Companies",
       path: "",
-      image: "/images/Afri-Rise-Scaled.jpg",
+      image: "/images/afririse-carousel-1.jpg",
     },
     {
       id: 1,

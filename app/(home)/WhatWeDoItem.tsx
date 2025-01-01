@@ -1,10 +1,10 @@
 import LinkButton from "@/components/LinkButton";
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 import React from "react";
 
 interface Prop {
-  item: { id: any; name: string; path: string; image: any; cover: any };
+  item: { id: number; name: string; path: string; image: string; cover: any };
 }
 const WhatWeDoItem = ({ item }: Prop) => {
   const { id, name, path, image, cover } = item;

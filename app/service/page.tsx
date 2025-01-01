@@ -1,7 +1,7 @@
 import React from "react";
 import ServiceCard from "@/components/ServiceCard";
 
-export default function Page() {
+export default function page() {
   // const recentNews = [
   //   {
   //     imageSrc: "/images/blog002.png",
@@ -18,7 +18,8 @@ export default function Page() {
     {
       icon: "/images/Market-Research.svg",
       title: "Fund Management",
-      description: "Fund Management Working with Thousands of companies around the world.",
+      description:
+        "Fund Management Working with Thousands of companies around the world.",
       link: "service/fund-management",
       backgroundImage: "/images/Fund-Management.jpg",
     },
@@ -78,9 +79,6 @@ export default function Page() {
           ))}
         </div>
       </div>
-
-
     </div>
   );
 }
-

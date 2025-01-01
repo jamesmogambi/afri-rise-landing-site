@@ -7,16 +7,16 @@ import React, { useState } from "react";
 
 interface Prop {
   highlight: {
-    id: any;
+    id: number;
     title: string;
     description: string;
-    image: any;
+    image: string;
     path: string;
   };
   className?: string;
 }
 const HighlightCard = ({ highlight, className }: Prop) => {
-  const { id, title, description, image, path } = highlight;
+  const { title, description, image, path } = highlight;
 
   const [isHovered, setIsHovered] = useState(false);
 
