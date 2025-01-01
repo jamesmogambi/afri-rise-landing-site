@@ -12,19 +12,23 @@ const ContactHeader = () => {
       <div className="flex items-center justify-between px-6 py-4 border-b border-gray-300">
         {/* Logo Section */}
         <div className="flex items-center justify-center flex-1">
-          <Image
-            src={"/images/company-logo.png"}
-            height={90}
-            width={170}
-            alt="company-logo"
-            priority
-            quality={99}
-          />
+          <Link href="/">
+            <Image
+              src={"/images/logo001.png"}
+              height={100}
+              width={200}
+              alt="company-logo"
+              priority
+              quality={99}
+            />
+          </Link>
         </div>
 
         {/* Office Hours Section */}
         <div className="flex items-center justify-center flex-1 border-x border-gray-300">
-          <span className="text-gray-700 text-lg font-light">MON-THUR: 8AM-4PM</span>
+          <span className="text-gray-700 text-lg font-light">
+            MON-THUR: 8AM-4PM
+          </span>
         </div>
 
         {/* Empty Space for Alignment */}
