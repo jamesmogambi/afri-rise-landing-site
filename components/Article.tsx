@@ -20,11 +20,14 @@ const ArticleCard: React.FC<ArticleCardProps> = ({
   title,
   description,
   readMoreLink,
+  className
 }) => {
   return (
-    <div className="max-w-lg mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+    <div
+    className={`bg-white shadow-lg rounded-lg overflow-hidden ${className}`}
+  >
       {/* Image Section */}
-      <div className="h-56 bg-gray-200">
+      <div className="h-90 bg-gray-200">
         <img
           src={imageSrc}
           alt="Article Thumbnail"

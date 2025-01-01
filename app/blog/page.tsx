@@ -11,6 +11,15 @@ export default function Page() {
     },
   ];
 
+  const galleryImages = [
+    "/images/gallery-widget1.jpg",
+    "/images/gallery-widget2.jpg",
+    "/images/gallery-widget3.jpg",
+    "/images/gallery-widget4.jpg",
+    "/images/gallery-widget5.jpg",
+    "/images/gallery-widget6.jpg",
+  ];
+
   const archives = [
     { month: "December", year: 2022, count: 1 },
   ];
@@ -44,7 +53,7 @@ export default function Page() {
             readingTime="4 mins read"
             title="Africa Investment Forum 2022 draws $31 billion in investor interest"
             description="A total of $63.8 billion of investment interest mobilized in 2022"
-            readMoreLink="/articles/africa-investment-forum-2022"
+            readMoreLink="/blog/news01"
             
           />
         </div>
@@ -52,7 +61,7 @@ export default function Page() {
 
         {/* Sidebar */}
         <div className="flex-shrink-0 w-full lg:w-[25%] border border-gray-200 rounded-lg p-6 shadow-lg">
-          <Sidebar recentNews={recentNews} archives={archives} />
+          <Sidebar recentNews={recentNews} archives={archives} galleryImages={galleryImages} />
         </div>
       </div>
 
