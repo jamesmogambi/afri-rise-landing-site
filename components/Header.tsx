@@ -15,7 +15,7 @@ import { usePathname, useRouter } from "next/navigation";
 const MobileNav = ({ className }: { className?: string }) => {
   const [showDropdown, setShowDropdown] = useState<boolean>(false);
 
-  const [width, setWidth] = useState<any>();
+  const [width, setWidth] = useState<unknown>();
 
   const pathName = usePathname();
 
@@ -45,7 +45,7 @@ const MobileNav = ({ className }: { className?: string }) => {
     <div className={`${cn(className)} `}>
       <DropdownMenu
         // open={showDropdown}
-        onOpenChange={(val) => setShowDropdown(val)}
+        onOpenChange={(val: boolean) => setShowDropdown(val)}
       >
         <DropdownMenuTrigger>
           {showDropdown ? (
@@ -110,14 +110,17 @@ const MobileNav = ({ className }: { className?: string }) => {
 const Header = () => {
   return (
     <div className="flex px-5 items-center justify-between  lg:justify-around lg:shadow-xl ">
-      <Image
-        src={"/images/logo-no-bg.png"}
-        height={200}
-        width={300}
-        alt="company-logo"
-        priority
-        quality={99}
-      />
+      <Link href="/">
+        <Image
+          src={"/images/logo001.png"}
+          height={200}
+          width={300}
+          alt="company-logo"
+          priority
+          quality={99}
+        />
+      </Link>
+
       <div className=" hidden lg:flex  mr-[250px] flex-row">
         {homeLinks.map((link) => (
           <Link

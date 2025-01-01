@@ -36,10 +36,10 @@ const Footer = () => {
           {/* section 1 */}
           <div className="basis-full pl-[15px]  pr-[45px] md:basis-1/2 lg:basis-1/3 border-r ">
             <Image
-              src={"/images/company-logo.png"}
+              src={"/images/logo001.png"}
               alt="company-logo"
-              height={169}
-              width={300}
+              height={180}
+              width={400}
             />
 
             <div className="pb-[28px] text-[#444444]">{footer.about}</div>
@@ -203,7 +203,7 @@ const Footer = () => {
           </div>
 
           <div className="text-gray-2 text-sm flex-1 text-center">
-            © 2025 Afri-Rise Limited. All Rights Reserved by Afri-Rise
+            © 2025 Afririse Limited. All Rights Reserved by Afririse
           </div>
 
           <div className="hidden lg:flex flex-row items-center flex-1 ">

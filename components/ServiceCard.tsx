@@ -24,7 +24,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       style={{
-        backgroundImage: isHovered ? `url(${backgroundImage})` : undefined,
+        backgroundImage: isHovered ? `url(${backgroundImage})` : "",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -43,10 +43,11 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
         }`}
       >
         <img
-          src={icon}
+          src={icon || ""}
           alt={`${title} Icon`}
           className="h-12 w-12 transition-opacity duration-300"
-        />
+        />{" "}
+        *
       </div>
 
       {/* Title */}

@@ -15,7 +15,7 @@ const getSourceSans = Source_Sans_3({
 });
 // const getSansSerif =
 export const metadata: Metadata = {
-  title: "Afririse Property Investments",
+  title: "Afririse Prosperity Investment Limited",
   description: "The African Funf for African Companies",
 };
 

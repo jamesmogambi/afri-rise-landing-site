@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import {
   Select,
   SelectContent,
@@ -21,12 +21,12 @@ interface Prop {
 const SelectInput = ({
   className = "",
   options,
-  onChange,
-  value,
+  // onChange,
+  // value,
   label,
   placeholder = "-Select-",
 }: Prop) => {
-  const [selectedVal, setValue] = useState("");
+  // const [selectedVal, setValue] = useState("");
   return (
     <Select>
       {label && <Label htmlFor={label.toLowerCase()}>{label}</Label>}

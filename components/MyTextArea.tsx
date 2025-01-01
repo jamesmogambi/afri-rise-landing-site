@@ -1,7 +1,7 @@
 import React from "react";
 import { Textarea } from "@/components/ui/textarea";
 import { cn } from "@/lib/utils";
-import { Rows } from "lucide-react";
+// import { Rows } from "lucide-react";
 import { Label } from "@radix-ui/react-label";
 
 interface Prop {
@@ -32,6 +32,7 @@ const MyTextArea = ({
         placeholder={placeholder}
         rows={rows}
         onChange={onChange}
+        value={value}
       />
     </div>
   );

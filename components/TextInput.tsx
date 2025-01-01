@@ -14,8 +14,8 @@ interface Prop {
 const TextInput = ({
   label,
   placeholder = "",
-  value,
-  onChange,
+  // value,
+  // onChange,
   className = "",
   ...rest
 }: Prop) => {

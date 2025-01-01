@@ -8,8 +8,8 @@ type ArticleCardProps = {
   readingTime: string;
   title: string;
   description: string;
-  readMoreLink: string; 
-  className:string;// New prop for the link
+  readMoreLink: string;
+  className: string; // New prop for the link
 };
 
 const ArticleCard: React.FC<ArticleCardProps> = ({
@@ -69,13 +69,12 @@ const ArticleCard: React.FC<ArticleCardProps> = ({
 
         {/* Read More Button with Link */}
         <Link href={readMoreLink}>
-        <button className="mt-4 inline-flex items-center px-6 py-3 text-black border border-gray-300 rounded-full shadow transition duration-300 hover:bg-[#120E43] hover:text-white">
-          Read more
-          <span className="ml-2 flex items-center justify-center w-6 h-6 rounded-full border border-current text-[#120E43] hover:text-white transition duration-300">
-            →
-          </span>
-        </button>
-
+          <button className="mt-4 inline-flex items-center px-6 py-3 text-black border border-gray-300 rounded-full shadow transition duration-300 hover:bg-[#120E43] hover:text-white">
+            Read more
+            <span className="ml-2 flex items-center justify-center w-6 h-6 rounded-full border border-current text-[#120E43] hover:text-white transition duration-300">
+              →
+            </span>
+          </button>
         </Link>
       </div>
     </div>
@@ -83,4 +82,3 @@ const ArticleCard: React.FC<ArticleCardProps> = ({
 };
 
 export default ArticleCard;
-

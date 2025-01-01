@@ -23,7 +23,7 @@ const AboutServices = () => {
           <div className="w-full md:w-1/2">
             <div className="flex flex-row items-center gap-4 mb-[12px]">
               <h4 className="text-[#1d1668] font-semibold text-[20px]">
-                About Afri-Rise
+                About Afririse Prospertity Investment Limited
               </h4>
               <TitleWidget />
             </div>

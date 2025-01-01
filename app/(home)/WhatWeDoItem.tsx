@@ -4,10 +4,16 @@ import Image from "next/image";
 import React from "react";
 
 interface Prop {
-  item: { id: number; name: string; path: string; image: string; cover: any };
+  item: {
+    id: number;
+    name: string;
+    path: string;
+    image: string;
+    cover: string;
+  };
 }
 const WhatWeDoItem = ({ item }: Prop) => {
-  const { id, name, path, image, cover } = item;
+  const { name, image, cover } = item;
 
   return (
     <div className=" group h-fit lg:h-[198px] relative  basis-full md:basis-1/2 border-purple-500 ">

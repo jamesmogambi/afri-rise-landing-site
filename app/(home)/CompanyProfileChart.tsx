@@ -16,7 +16,8 @@ const CompanyProfileChart = () => {
           <SectionTitle name="Company Profit Chart" />
 
           <h2 className="mb-[15px] text-[36px] leading-tight  lg:w-2/3">
-            Afri-Rise Equity Offers the Best Business Solutions
+            Afririse Prosperity Investment Limited Offers the Best Business
+            Solutions
           </h2>
 
           <p className="pr-6 text-lg mb-[30px] ">
