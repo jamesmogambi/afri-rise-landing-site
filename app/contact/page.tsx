@@ -1,25 +1,14 @@
 import ContactSection from "@/components/contactCard";
 import ContactForm from "@/components/ContactForm";
 import ContactMap from "@/components/ContactMap";
+import PageBanner from "@/components/PageBanner";
 import React from "react";
 
 export default function Page() {
   return (
     <div>
       {/* Background Section */}
-      <div
-        className="relative bg-cover bg-center h-[60vh] flex items-center justify-center"
-        style={{
-          backgroundImage: "url('/images/contactCover.png')", // Replace with your image path
-        }}
-      >
-        {/* <div className="text-center text-white">
-          <h1 className="text-4xl font-bold">Service</h1>
-          <p className="mt-2 text-lg">
-            Afri-Rise Equity - <span className="text-orange-500">service</span>
-          </p>
-        </div> */}
-      </div>
+      <PageBanner title="Contact"/>
 
       {/* Main Content Section */}
       <ContactSection/>

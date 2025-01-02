@@ -73,7 +73,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
         href={link}
         className={`relative z-10 px-4 py-2 text-sm font-semibold rounded-md transition-all duration-300 ${
           isHovered
-            ? "bg-white text-purple-600 shadow-lg opacity-100"
+            ? "bg-primary text-white shadow-lg opacity-100"
             : "opacity-0"
         }`}
       >

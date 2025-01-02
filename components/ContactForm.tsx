@@ -18,7 +18,7 @@ const ContactForm: React.FC = () => {
               type="text"
               placeholder="First Name*"
               required
-              className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-900"
+              className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
             />
           </div>
 
@@ -28,7 +28,7 @@ const ContactForm: React.FC = () => {
               type="text"
               placeholder="Last Name*"
               required
-              className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-900"
+              className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
             />
           </div>
 
@@ -38,7 +38,7 @@ const ContactForm: React.FC = () => {
               type="email"
               placeholder="Email*"
               required
-              className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-900"
+              className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
             />
           </div>
 
@@ -48,7 +48,7 @@ const ContactForm: React.FC = () => {
               type="tel"
               placeholder="Phone*"
               required
-              className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-900"
+              className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
             />
           </div>
         </div>
@@ -59,7 +59,7 @@ const ContactForm: React.FC = () => {
             type="text"
             placeholder="Subject*"
             required
-            className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-900"
+            className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
           />
         </div>
 
@@ -68,7 +68,7 @@ const ContactForm: React.FC = () => {
           <textarea
             rows={5}
             placeholder="Comments"
-            className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-900"
+            className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
           ></textarea>
         </div>
 
@@ -76,7 +76,7 @@ const ContactForm: React.FC = () => {
         <div className="flex justify-start">
           <button
             type="submit"
-            className="bg-purple-900 text-white py-3 px-8 rounded-full shadow-md hover:bg-purple-800 transition duration-300"
+            className="bg-primary text-white py-3 px-8 rounded-full shadow-md hover:bg-purple-900 transition duration-300"
           >
             Send Message
           </button>

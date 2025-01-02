@@ -19,7 +19,7 @@ const Servicelinks: React.FC = () => {
       {links.map((link, index) => (
         <Link key={index} href={link.href} passHref>
           <div
-            className={`p-4 flex items-center justify-between cursor-pointer bg-gray-100 text-gray-800 border-t hover:bg-purple-700 hover:text-white hover:rounded-lg transition-all duration-300 ${
+            className={`p-4 flex items-center justify-between cursor-pointer bg-gray-100 text-gray-800 border-t hover:bg-primary hover:text-white hover:rounded-lg transition-all duration-300 ${
               index === 0 ? "rounded-t-lg" : ""
             }`}
           >

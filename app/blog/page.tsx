@@ -1,6 +1,7 @@
 import React from "react";
 import ArticleCard from "@/components/Article";
 import Sidebar from "@/components/SideBar";
+import PageBanner from "@/components/PageBanner";
 
 export default function Page() {
   const recentNews = [
@@ -27,20 +28,7 @@ export default function Page() {
   return (
     <div>
       {/* Background Section */}
-      <div
-        className="relative bg-cover bg-center h-[60vh] flex items-center justify-center"
-        style={{
-          backgroundImage: "url('/images/blog001.png')", // Replace with your image path
-        }}
-      >
-        {/* <div className="text-center text-white">
-          <h1 className="text-4xl font-bold">Blog</h1>
-          <p className="mt-2 text-lg">
-            Afri-Rise Equity - <span className="text-orange-500">Blog</span>
-          </p>
-        </div> */}
-      </div>
-
+      <PageBanner title="Blog"/>
       {/* Main Content and Sidebar Section */}
       <div className="max-w-[95%] mx-auto mt-8 mb-8 flex flex-col lg:flex-row gap-6">
         {/* Main Content: Article Card */}

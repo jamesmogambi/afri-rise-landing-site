@@ -49,7 +49,7 @@ const CommentForm: React.FC = () => {
             value={formData.comment}
             onChange={handleInputChange}
             required
-            className="w-full h-32 p-4 bg-gray-100 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-600"
+            className="w-full h-32 p-4 bg-gray-100 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
           />
         </div>
 
@@ -62,7 +62,7 @@ const CommentForm: React.FC = () => {
             value={formData.name}
             onChange={handleInputChange}
             required
-            className="w-full p-4 bg-gray-100 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-600"
+            className="w-full p-4 bg-gray-100 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
           />
           <input
             type="email"
@@ -71,7 +71,7 @@ const CommentForm: React.FC = () => {
             value={formData.email}
             onChange={handleInputChange}
             required
-            className="w-full p-4 bg-gray-100 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-600"
+            className="w-full p-4 bg-gray-100 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
           />
         </div>
 
@@ -82,7 +82,7 @@ const CommentForm: React.FC = () => {
             name="saveInfo"
             checked={formData.saveInfo}
             onChange={handleInputChange}
-            className="w-5 h-5 text-indigo-600 border-gray-300 rounded focus:ring-2 focus:ring-indigo-600"
+            className="w-5 h-5 text-indigo-600 border-gray-300 rounded focus:ring-2 focus:ring-primary"
           />
           <label htmlFor="saveInfo" className="ml-3 text-gray-600">
             Save my name, email, and website in this browser for the next time I comment.
@@ -93,7 +93,7 @@ const CommentForm: React.FC = () => {
         <div className="flex justify-start">
           <button
             type="submit"
-            className="px-6 py-3 bg-purple-700 text-white font-medium rounded-lg hover:bg-purple-800 focus:outline-none focus:ring-2 focus:ring-purple-600"
+            className="px-6 py-3 bg-primary text-white font-medium rounded-lg hover:bg-blue-900 focus:outline-none focus:ring-2 focus:ring-purple-600"
           >
             Post Comment
           </button>

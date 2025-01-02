@@ -5,6 +5,7 @@ import PortSection003 from "@/components/portSection003";
 import TagsAndShare from "@/components/tagsCard";
 import AdminCard from "@/components/AdminCard";
 import CommentForm from "@/components/CommentForm";
+import PageBanner from "@/components/PageBanner";
 
 export default function Page() {
   const description = `
@@ -103,12 +104,7 @@ Since its inception in 2018, the Africa Investment Forum platform has mobilized 
   return (
     <div className="flex flex-col">
       {/* Background Section */}
-      <div
-        className="relative bg-cover bg-center h-[60vh] w-full"
-        style={{
-          backgroundImage: "url('/images/newsCover.png')", // Replace with your image path
-        }}
-      ></div>
+     <PageBanner title="Africa Investment Forum 2022 draws $31 bilion in investor interest"/>
 
       {/* Main Content and Sidebar Section */}
       <div className="max-w-[95%] mx-auto mt-8 mb-8 flex flex-col lg:flex-row gap-6">

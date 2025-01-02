@@ -40,7 +40,7 @@ const FundMTabs: React.FC = () => {
             key={index}
             className={`flex-1 py-3 text-center text-sm font-semibold relative z-10 ${
               activeTab === index
-                ? "bg-purple-700 text-white"
+                ? "bg-primary text-white"
                 : "bg-gray-100 text-gray-600 border-b"
             }`}
             onClick={() => setActiveTab(index)}

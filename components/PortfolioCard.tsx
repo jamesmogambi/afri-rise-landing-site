@@ -53,7 +53,7 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
             href={link} // Navigation link
             passHref
           >
-            <button className="mt-2 px-4 py-2 bg-blue-700 text-sm font-medium rounded hover:bg-blue-800">
+            <button className="mt-2 px-4 py-2 bg-primary text-sm font-medium rounded hover:bg-blue-800">
               + Read More
             </button>
           </Link>

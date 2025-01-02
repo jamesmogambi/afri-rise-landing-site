@@ -42,7 +42,7 @@ const ContactHeader = () => {
             <Link
               key={link.href}
               href={link.href}
-              className="text-lg font-light text-gray-700 hover:text-purple-600"
+              className="text-lg font-light text-gray-700 hover:text-primary"
             >
               {link.name}
             </Link>

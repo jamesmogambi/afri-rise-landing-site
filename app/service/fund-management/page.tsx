@@ -2,17 +2,13 @@ import DetailCard from "@/components/DetailCard";
 import FundMTabs from "@/components/FundMTabs";
 import Servicelinks from "@/components/ServiceLinks";
 import ServiceContact from "@/components/ServiceContact";
+import PageBanner from "@/components/PageBanner";
 
 export default function page() {
   return (
     <div>
       {/* Background Section */}
-      <div
-        className="relative bg-cover bg-center h-[60vh] flex items-center justify-center"
-        style={{
-          backgroundImage: "url('/images/service-fundManagement.png')", // Replace with your image path
-        }}
-      ></div>
+      <PageBanner title="Fund Management"/>
 
       {/* Main Content Section */}
       <div className="min-h-screen bg-gray-100 py-10">

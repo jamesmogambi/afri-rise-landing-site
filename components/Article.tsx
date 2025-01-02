@@ -41,7 +41,7 @@ const ArticleCard: React.FC<ArticleCardProps> = ({
         <div className="flex items-center text-gray-500 text-sm space-x-4">
           <div className="flex items-center space-x-1">
             <svg
-              className="h-4 w-4 text-purple-600"
+              className="h-4 w-4 text-primary"
               fill="none"
               stroke="currentColor"
               strokeWidth={2}
@@ -72,9 +72,9 @@ const ArticleCard: React.FC<ArticleCardProps> = ({
 
         {/* Read More Button with Link */}
         <Link href={readMoreLink}>
-          <button className="mt-4 inline-flex items-center px-6 py-3 text-black border border-gray-300 rounded-full shadow transition duration-300 hover:bg-[#120E43] hover:text-white">
+          <button className="mt-4 inline-flex items-center px-6 py-3 bg-primary text-white border border-gray-300 rounded-full shadow transition duration-300 hover:bg-blue-900 hover:text-white">
             Read more
-            <span className="ml-2 flex items-center justify-center w-6 h-6 rounded-full border border-current text-[#120E43] hover:text-white transition duration-300">
+            <span className="ml-2 flex items-center justify-center w-6 h-6 rounded-full border border-current text-white hover:text-white transition duration-300">
               →
             </span>
           </button>

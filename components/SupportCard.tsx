@@ -13,7 +13,7 @@ const SupportCard: React.FC = () => {
           height={500}
           className="object-cover w-full h-full"
         />
-        <div className="absolute top-0 left-0 w-6 h-6 bg-purple-700 rotate-45 -translate-y-1/2 translate-x-1/2"></div>
+        <div className="absolute top-0 left-0 w-6 h-6 bg-primary rotate-45 -translate-y-1/2 translate-x-1/2"></div>
       </div>
 
       {/* Text Section */}
@@ -23,19 +23,19 @@ const SupportCard: React.FC = () => {
         </h2>
         <ul className="space-y-3">
           <li className="flex items-center text-gray-800">
-            <span className="w-2 h-2 bg-purple-700 rounded-full mr-3"></span>
+            <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
             Portfolio management
           </li>
           <li className="flex items-center text-gray-800">
-            <span className="w-2 h-2 bg-purple-700 rounded-full mr-3"></span>
+            <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
             Capacity building support
           </li>
           <li className="flex items-center text-gray-800">
-            <span className="w-2 h-2 bg-purple-700 rounded-full mr-3"></span>
+            <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
             Fundraising expertise
           </li>
           <li className="flex items-center text-gray-800">
-            <span className="w-2 h-2 bg-purple-700 rounded-full mr-3"></span>
+            <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
             ESG integration
           </li>
         </ul>

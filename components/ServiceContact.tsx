@@ -7,7 +7,7 @@ const ServiceContact: React.FC = () => {
       {/* Contact Section */}
       <div className="mb-6">
         <h2 className="text-lg font-bold text-gray-800 mb-2">Contact Us</h2>
-        <div className="h-1 w-12 bg-purple-700 mb-4"></div>
+        <div className="h-1 w-12 bg-primary mb-4"></div>
         <p className="text-gray-700 text-sm">
           📍 P.O.BOX 47942 NAIROBI, KENYA • WU YI PLAZA GALANA ROAD KILIMANI •
           SUITE B 6 TH FLOOR ROOM 12 • PIN P052176321T
@@ -43,9 +43,9 @@ const ServiceContact: React.FC = () => {
       {/* Brochures Section */}
       <div>
         <h2 className="text-lg font-bold text-gray-800 mb-2">Our Brochures</h2>
-        <div className="h-1 w-12 bg-purple-700 mb-4"></div>
+        <div className="h-1 w-12 bg-primary mb-4"></div>
         <div className="space-y-2">
-          <button className="w-full bg-purple-700 text-white py-2 px-4 rounded-lg flex items-center justify-center gap-2 hover:bg-purple-800 transition">
+          <button className="w-full bg-primary text-white py-2 px-4 rounded-lg flex items-center justify-center gap-2 hover:bg-purple-900 transition">
             📄 Download Profile
           </button>
           <button className="w-full bg-gray-200 text-gray-800 py-2 px-4 rounded-lg flex items-center justify-center gap-2 hover:bg-purple-700 hover:text-white transition">

@@ -1,4 +1,5 @@
 import CoverImage from "@/components/CoverImage";
+import PageBanner from "@/components/PageBanner";
 import PortSection002 from "@/components/portSection002";
 import PortSection003 from "@/components/portSection003";
 
@@ -31,12 +32,7 @@ export default function Page() {
   return (
     <div>
             {/* Background Section */}
-            <div
-                className="relative bg-cover bg-center h-[60vh] flex items-center justify-center"
-                style={{
-                backgroundImage: "url('/images/cover05.png')", // Replace with your image path
-                }}
-            ></div>
+            <PageBanner title="Insurance"/>
 
             {/* Main Content */}
       <div className="max-w-7xl mx-auto px-6 py-10">

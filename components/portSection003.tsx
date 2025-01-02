@@ -29,7 +29,7 @@ const PortSection003: React.FC<PortSection001Props> = ({
 
       {/* Content Section */}
       <div className="p-6">
-        <p className="text-sm text-blue-600 font-semibold uppercase mb-2">
+        <p className="text-sm text-primary font-semibold uppercase mb-2">
           {category}
         </p>
         <h2 className="text-2xl font-bold text-gray-800 mb-4">{title}</h2>
